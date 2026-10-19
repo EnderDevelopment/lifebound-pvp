@@ -1,0 +1,13 @@
+name: PVPPlugin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A PVP plugin with life management and spectator mode.
+api-version: "1.21"
+commands:
+  life:
+    description: Check your remaining lives.
+    usage: /life
+  spectate:
+    description: Teleport to a living player.
+    usage: /spectate <player>
